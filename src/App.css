@@ -1,0 +1,37 @@
+body{
+  background-color: rgb(241, 182, 20);
+  display: flex;
+  justify-content: center;
+}
+
+.App{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgb(7, 47, 158);
+  border-radius: 15px;
+  background-color: rgb(59, 53, 53);
+  color: white;
+  width: 500px;
+  height: 500px;
+  overflow-y: scroll;
+}
+.App::-webkit-scrollbar{
+  display: none;
+}
+
+.listItem{
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnDiv{
+  margin: 2px;
+}
